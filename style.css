@@ -76,3 +76,14 @@ html {
 
     }
 }
+@media only screen and (max-width: 1000px) {
+    .container {
+        row-gap: 100px;
+        flex-direction: column;
+    }
+    .container .box {
+        width: 200px;
+        height: 200px;
+
+    }
+}
